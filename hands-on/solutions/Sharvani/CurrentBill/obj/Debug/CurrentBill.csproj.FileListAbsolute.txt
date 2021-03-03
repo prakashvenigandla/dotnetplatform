@@ -1,7 +1,0 @@
-C:\Users\punug\source\repos\CurrentBill\bin\Debug\CurrentBill.exe.config
-C:\Users\punug\source\repos\CurrentBill\bin\Debug\CurrentBill.exe
-C:\Users\punug\source\repos\CurrentBill\bin\Debug\CurrentBill.pdb
-C:\Users\punug\source\repos\CurrentBill\obj\Debug\CurrentBill.csprojAssemblyReference.cache
-C:\Users\punug\source\repos\CurrentBill\obj\Debug\CurrentBill.csproj.CoreCompileInputs.cache
-C:\Users\punug\source\repos\CurrentBill\obj\Debug\CurrentBill.exe
-C:\Users\punug\source\repos\CurrentBill\obj\Debug\CurrentBill.pdb
