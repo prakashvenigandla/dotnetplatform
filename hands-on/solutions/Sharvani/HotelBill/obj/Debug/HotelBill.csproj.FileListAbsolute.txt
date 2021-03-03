@@ -1,6 +1,0 @@
-C:\Users\punug\source\repos\HotelBill\bin\Debug\HotelBill.exe.config
-C:\Users\punug\source\repos\HotelBill\bin\Debug\HotelBill.exe
-C:\Users\punug\source\repos\HotelBill\bin\Debug\HotelBill.pdb
-C:\Users\punug\source\repos\HotelBill\obj\Debug\HotelBill.csproj.CoreCompileInputs.cache
-C:\Users\punug\source\repos\HotelBill\obj\Debug\HotelBill.exe
-C:\Users\punug\source\repos\HotelBill\obj\Debug\HotelBill.pdb
