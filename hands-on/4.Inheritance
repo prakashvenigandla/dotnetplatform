@@ -1,0 +1,5 @@
+Create a console app and define three classes
+1)Student(Common data and behaviours)
+2)Hosteler(Derive from Student class and add additional fields and behaviours)
+3)DayScholor(Derive from Student class and add additional fields and behaviours)
+Create three instances of each Hostler and DayScholor display in Main method
