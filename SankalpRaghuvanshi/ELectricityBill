@@ -1,0 +1,40 @@
+using System;
+
+namespace electricitybill
+{
+class MainClass
+{
+public static void Main(String[] args)
+{
+int conunit;
+Double gramount=0, gstcharges = 0, totalamount;
+
+        Console.Write("Input consumed units by customer  :");
+        conunit = Convert.ToInt32(Console.ReadLine());
+        if (conunit >= 0 && conunit < 100)
+            gramount = gramount + 5 * conunit;
+        else if (conunit >= 101 && conunit < 200)
+            gramount = (conunit - 100) * 7 + 500;
+
+        else if (conunit >= 201 && conunit < 300)
+            gramount = (conunit - 200) * 10 + 500 + 700;
+        else if (conunit >= 301 && conunit < 400)
+            gramount = (conunit - 300) * 12 + 500 + 700 + 1000;
+
+        else if (conunit > 400)
+            gramount = conunit * 15;
+        Console.WriteLine(gramount);
+
+        gstcharges = gramount * 14 / 100.0;
+        Console.WriteLine(gstcharges);
+
+        totalamount = gramount + gstcharges;
+
+
+        Console.WriteLine(totalamount);
+
+    }
+
+
+}
+}
