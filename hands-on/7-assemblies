@@ -1,0 +1,5 @@
+1)Create a MathLib assembly of dll type, deploy to GAC.
+2)Reference it two exe type assemblies(Console App) i.e. MathLibClient & MathLibClient2. Make sure local copy not done.
+3)Make changes in the MathLib by adding a Multiplication method, build it.
+4)Uninstall from GAC and then deploy it GAC
+5)Run both MathLibClient & MathLibClient2
