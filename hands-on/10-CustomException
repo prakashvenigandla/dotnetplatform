@@ -1,0 +1,2 @@
+Create a console application and define custom exception class for business constraint of your choice.
+Throw the exception when it is violated and handle it.
