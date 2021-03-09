@@ -1,0 +1,21 @@
+->Create an Account class with following properties
+AccountNo
+Name
+AccountType(Savings,Current)
+Balance
+Ifsc
+Branch
+
+->Create two Account instances and populate data
+
+->Display Menu
+1)NEFT
+2)IMPS
+User selects the preferred option and enters the source and destination account details like AccountNo, Name, Ifsc, Balance
+
+Business Constraint: Transfer successful only when the amount is deducted from source account and added to destination account otherwise throw transaction 
+failed exception
+
+
+
+
