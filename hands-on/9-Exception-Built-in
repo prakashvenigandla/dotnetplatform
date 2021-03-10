@@ -1,1 +1,6 @@
-Create a console app which throws five built-in exceptions of your choice and handle it. 
+Create a console app which throws five built-in exceptions 
+1)ArgumentOutOfRange
+2)IndexOutOfRange
+3)InvalidCast
+4)NullReference
+5)ArgumentNull
