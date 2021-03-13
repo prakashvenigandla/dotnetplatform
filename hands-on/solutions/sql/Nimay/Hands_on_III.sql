@@ -1,6 +1,6 @@
 --Hands-on-III
 --Query-I
-select * from Person.Person where MiddleName is Not null
+select * from Person.Person WHERE LEN(MiddleName)>1 
 --Query-II
 select UPPER(CONCAT(FirstName,' ',MiddleName,' ',LastName)) As Name from Person.Person
 --Query-III
