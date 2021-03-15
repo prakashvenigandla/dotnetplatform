@@ -2,7 +2,7 @@
 --1)
 use AdventureWorks2019
 select*
-from Person.Person where LEN(MiddleName) > 1
+from Person.Person where LEN(MiddleName) > 1 AND MiddleName Not like '%.'
 --2)
 select UPPER(CONCAT(FirstName, ' ' ,MiddleName,' ', LastName)) as Name 
 from Person.Person 
