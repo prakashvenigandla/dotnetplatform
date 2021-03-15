@@ -20,5 +20,6 @@ from Sales.SalesOrderHeader where FORMAT(OrderDate,'MM')=02
 --7)
 select ProductID,Name, COALESCE(Color,'No color') AS Color from Production.Product 
 --8)
-select* , FORMAT(BirthDate,'MMMM dd,yyyy')As BirthDate 
+select Employee.BusinessEntityID as Emp_ID , FORMAT(BirthDate,'MMMM dd,yyyy')As BirthDate 
 from HumanResources.Employee
+
