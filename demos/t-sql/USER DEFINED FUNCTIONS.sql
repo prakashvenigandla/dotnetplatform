@@ -43,3 +43,7 @@ RETURN
 END
 --CALLING MULTI STATEMENT TABLE VALUED FUNCTION
 SELECT *FROM dbo.GET_TOTALSAL_ANNSAL(1005)
+
+--reference
+https://docs.microsoft.com/en-us/sql/relational-databases/user-defined-functions/user-defined-functions?view=sql-server-ver15
+https://docs.microsoft.com/en-us/sql/relational-databases/user-defined-functions/create-user-defined-functions-database-engine?view=sql-server-ver15
